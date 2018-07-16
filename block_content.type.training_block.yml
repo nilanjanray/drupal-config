@@ -1,0 +1,8 @@
+uuid: 7e7a872b-9732-4c21-85d3-ee0799c67cce
+langcode: en
+status: true
+dependencies: {  }
+id: training_block
+label: 'Training Block'
+revision: 1
+description: ''

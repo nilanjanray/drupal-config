@@ -1,0 +1,23 @@
+uuid: bd476aea-2bd7-4dae-876a-e94d70a5f7dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block
+    - core.entity_view_mode.block_content.training_block
+    - field.field.block_content.training_block.body
+  module:
+    - text
+id: block_content.training_block.training_block
+targetEntityType: block_content
+bundle: training_block
+mode: training_block
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

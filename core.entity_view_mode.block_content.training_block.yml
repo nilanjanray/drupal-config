@@ -1,0 +1,10 @@
+uuid: 5d184354-8f76-4d26-8045-9bcede374718
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.training_block
+label: training-block
+targetEntityType: block_content
+cache: true
