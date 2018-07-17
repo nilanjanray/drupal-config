@@ -1,0 +1,14 @@
+{
+  "name": "drupal/drupal8_training",
+  "type": "drupal-module",
+  "description": "Drupal 8 Training awesome module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/drupal8_training",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/drupal8_training",
+    "source": "http://cgit.drupalcode.org/drupal8_training"
+  },
+  "require": { }
+}

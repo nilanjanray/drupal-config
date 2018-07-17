@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains drupal8_training.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drupal8_training_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the drupal8_training module.
+    case 'help.page.drupal8_training':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Drupal 8 Training awesome module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function drupal8_training_theme() {
+  return [
+    'drupal8_training' => [
+      'render element' => 'children',
+    ],
+  ];
+}

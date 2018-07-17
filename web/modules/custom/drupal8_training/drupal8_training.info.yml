@@ -1,0 +1,5 @@
+name: 'Drupal8 Training'
+type: module
+description: 'Drupal 8 Training awesome module'
+core: 8.x
+package: 'Custom'
