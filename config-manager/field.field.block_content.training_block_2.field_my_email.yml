@@ -1,0 +1,21 @@
+uuid: d44a5328-b0cb-422f-8620-119f326f30c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block_2
+    - field.storage.block_content.field_my_email
+id: block_content.training_block_2.field_my_email
+field_name: field_my_email
+entity_type: block_content
+bundle: training_block_2
+label: 'My Email'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: nilanjan.ray@cognizant.com
+default_value_callback: ''
+settings: {  }
+field_type: email

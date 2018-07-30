@@ -1,0 +1,50 @@
+uuid: c4fc2990-b247-4644-adf7-3ac845564afa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block_2
+    - field.field.block_content.training_block_2.body
+    - field.field.block_content.training_block_2.field_my_email
+    - field.field.block_content.training_block_2.field_training
+  module:
+    - text
+id: block_content.training_block_2.default
+targetEntityType: block_content
+bundle: training_block_2
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_my_email:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_training:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

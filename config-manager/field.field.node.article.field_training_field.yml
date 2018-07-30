@@ -1,0 +1,21 @@
+uuid: 836e9dfe-778e-47c8-822b-2279699dc4b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_training_field
+    - node.type.article
+  module:
+    - text
+id: node.article.field_training_field
+field_name: field_training_field
+entity_type: node
+bundle: article
+label: 'Training field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

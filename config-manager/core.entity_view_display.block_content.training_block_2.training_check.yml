@@ -1,0 +1,33 @@
+uuid: 455dd627-2dbd-44fe-bcdb-d40c7e1fe16a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block_2
+    - core.entity_view_mode.block_content.training_check
+    - field.field.block_content.training_block_2.body
+    - field.field.block_content.training_block_2.field_my_email
+    - field.field.block_content.training_block_2.field_training
+  module:
+    - text
+id: block_content.training_block_2.training_check
+targetEntityType: block_content
+bundle: training_block_2
+mode: training_check
+content:
+  field_my_email:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_training:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  body: true

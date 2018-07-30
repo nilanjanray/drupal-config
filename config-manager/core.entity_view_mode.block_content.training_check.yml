@@ -1,0 +1,10 @@
+uuid: e834cb0d-85e5-402e-9ff8-8bf296e95709
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.training_check
+label: Training-check
+targetEntityType: block_content
+cache: true

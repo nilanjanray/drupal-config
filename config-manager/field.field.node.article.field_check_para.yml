@@ -1,0 +1,31 @@
+uuid: a5873a32-60ed-42dd-9467-6bef4990f93c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_check_para
+    - node.type.article
+    - paragraphs.paragraphs_type.training_paragraph
+  module:
+    - entity_reference_revisions
+id: node.article.field_check_para
+field_name: field_check_para
+entity_type: node
+bundle: article
+label: Check-para
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      training_paragraph: training_paragraph
+    target_bundles_drag_drop:
+      training_paragraph:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

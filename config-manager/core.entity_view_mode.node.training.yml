@@ -1,0 +1,10 @@
+uuid: 1f85ee32-d8f4-48b9-8624-71ec8fc2a79d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.training
+label: Training
+targetEntityType: node
+cache: true

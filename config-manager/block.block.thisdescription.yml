@@ -1,0 +1,25 @@
+uuid: adbec503-25ce-430f-9c89-d396cc2d9b71
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:training_block_2:4e544c8b-a425-4a6c-9871-995d81839474'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: thisdescription
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:4e544c8b-a425-4a6c-9871-995d81839474'
+settings:
+  id: 'block_content:4e544c8b-a425-4a6c-9871-995d81839474'
+  label: 'Training check Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: training_check
+visibility: {  }

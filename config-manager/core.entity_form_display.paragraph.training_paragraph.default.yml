@@ -1,0 +1,33 @@
+uuid: 0abd2e01-64ee-4b10-9a50-bd65bc170796
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.training_paragraph.field_event_date
+    - field.field.paragraph.training_paragraph.field_training_title
+    - paragraphs.paragraphs_type.training_paragraph
+  module:
+    - datetime
+id: paragraph.training_paragraph.default
+targetEntityType: paragraph
+bundle: training_paragraph
+mode: default
+content:
+  field_event_date:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_training_title:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

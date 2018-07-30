@@ -1,0 +1,21 @@
+uuid: 7ca9711c-83bc-4e46-91fc-7d341439c585
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block_2
+    - field.storage.block_content.field_training
+  module:
+    - text
+id: block_content.training_block_2.field_training
+field_name: field_training
+entity_type: block_content
+bundle: training_block_2
+label: Training
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

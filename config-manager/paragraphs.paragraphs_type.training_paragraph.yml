@@ -1,0 +1,9 @@
+uuid: 6176ff57-f43d-4d5f-84bc-7bc44b20ae3f
+langcode: en
+status: true
+dependencies: {  }
+id: training_paragraph
+label: 'Training paragraph'
+icon_uuid: null
+description: 'Training paragraph description'
+behavior_plugins: {  }

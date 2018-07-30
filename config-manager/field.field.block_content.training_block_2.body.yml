@@ -1,0 +1,22 @@
+uuid: bad89183-cbbd-435b-a7c0-9f90c5c11875
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block_2
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.training_block_2.body
+field_name: body
+entity_type: block_content
+bundle: training_block_2
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,38 @@
+uuid: cd8f06e9-ecc5-4db0-a4ce-38df88afe12e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.training_block_2
+    - field.field.block_content.training_block_2.body
+    - field.field.block_content.training_block_2.field_my_email
+    - field.field.block_content.training_block_2.field_training
+  module:
+    - text
+id: block_content.training_block_2.default
+targetEntityType: block_content
+bundle: training_block_2
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_my_email:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_training:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

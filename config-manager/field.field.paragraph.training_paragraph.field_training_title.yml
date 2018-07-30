@@ -1,0 +1,19 @@
+uuid: 89ff1013-c5e6-4c7a-84a2-59ba6a6952f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_training_title
+    - paragraphs.paragraphs_type.training_paragraph
+id: paragraph.training_paragraph.field_training_title
+field_name: field_training_title
+entity_type: paragraph
+bundle: training_paragraph
+label: 'Training Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
