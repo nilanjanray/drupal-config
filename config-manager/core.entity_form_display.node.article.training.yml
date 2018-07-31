@@ -36,7 +36,7 @@ content:
     third_party_settings: {  }
   field_check_para:
     type: paragraphs
-    weight: 1
+    weight: 0
     region: content
     settings:
       title: Paragraph
@@ -78,7 +78,7 @@ content:
     region: content
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60
