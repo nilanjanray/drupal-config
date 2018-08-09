@@ -1,0 +1,19 @@
+uuid: 6b1cbeff-7812-453e-bd8f-c3aef803653d
+langcode: en
+status: true
+dependencies: {  }
+id: split_test
+label: split-test
+folder: /mnt/drupal8_local/split
+module:
+  block_content: 0
+theme: {  }
+blacklist:
+  - block_content.type.training_block
+  - block_content.type.training_block_2
+graylist:
+  - paragraphs.paragraphs_type.training_paragraph
+  - paragraphs.settings
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

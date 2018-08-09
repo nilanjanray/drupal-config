@@ -1,0 +1,15 @@
+uuid: 87e41572-9eba-4e45-898a-f425d186f49e
+langcode: en
+status: true
+dependencies: {  }
+id: split_another
+label: split_another
+folder: /mnt/drupal8_local/split_another
+module:
+  paragraphs: 11
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -1,0 +1,22 @@
+uuid: baaf8022-fdcf-4085-aae6-254969edb9ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal8_training_session
+  theme:
+    - bartik
+id: trainingblockexample
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: trainingnow_block
+settings:
+  id: trainingnow_block
+  label: 'Training block example'
+  provider: drupal8_training_session
+  label_display: '0'
+  block_name: 'Training Block for the Python tutorials'
+  data: '2'
+visibility: {  }
