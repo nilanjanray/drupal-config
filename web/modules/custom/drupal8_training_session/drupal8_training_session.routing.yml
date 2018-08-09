@@ -1,0 +1,38 @@
+
+drupal8_training_session.training_controller_trainingconcepts:
+  path: '/trainingconcepts/{name}/{mytype}/{checkdrupal}'
+  defaults:
+    _controller: '\Drupal\drupal8_training_session\Controller\TrainingController::trainingconcepts'
+    _title: 'Training title'
+  requirements:
+    _permission: 'access content'
+
+  
+
+drupal8_training_session.my_controller_helloworld:
+  path: '/drupal8_training_session/helloworld'
+  defaults:
+    _controller: '\Drupal\drupal8_training_session\Controller\MyController::helloworld'
+    _title: 'Hello-world'
+  requirements:
+    _permission: 'access content'
+
+drupal8_training_session.training_form:
+  path: '/trainingform'
+  defaults:
+    _form: '\Drupal\drupal8_training_session\Form\TrainingForm'
+    _title: 'TrainingForm'
+  requirements:
+    _access: 'TRUE'
+  
+
+drupal8_training_session.training_config_form:
+  path: '/admin/config/drupal8_training_session/trainingconfig'
+  defaults:
+    _form: '\Drupal\drupal8_training_session\Form\TrainingConfigForm'
+    _title: 'TrainingConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

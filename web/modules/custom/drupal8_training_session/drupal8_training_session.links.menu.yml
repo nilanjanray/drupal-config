@@ -1,0 +1,7 @@
+drupal8_training_session.training_config_form:
+  title: 'Training'
+  route_name: drupal8_training_session.training_config_form
+  description: 'This is a configuration form during Training'
+  parent: system.admin_config_system
+  weight: 99
+

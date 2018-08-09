@@ -1,0 +1,14 @@
+{
+  "name": "drupal/drupal8_training_session",
+  "type": "drupal-module",
+  "description": "This is simple module for Drupal8 training Cognizant",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/drupal8_training_session",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/drupal8_training_session",
+    "source": "http://cgit.drupalcode.org/drupal8_training_session"
+  },
+  "require": { }
+}

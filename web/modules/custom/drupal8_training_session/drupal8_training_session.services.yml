@@ -1,0 +1,14 @@
+services:
+  drupal8_training_session.training:
+    class: Drupal\drupal8_training_session\TrainingService
+    arguments: ['@entity_type.manager']
+  training_event:
+    class: Drupal\drupal8_training_session\EventSubscriber\TrainingEventSubscriber
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: event_subscriber }
+  cache_context.train_session:
+    class: Drupal\drupal8_training_session\CacheContext\DefaultCacheContext
+    arguments: []
+    tags:
+      - { name: cache.context }

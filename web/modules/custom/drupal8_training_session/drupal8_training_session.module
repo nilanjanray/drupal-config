@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains drupal8_training_session.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drupal8_training_session_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the drupal8_training_session module.
+    case 'help.page.drupal8_training_session':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This is simple module for Drupal8 training Cognizant') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function drupal8_training_session_theme() {
+  return [
+    'drupal8_training_session' => [
+      'render element' => 'children',
+    ],
+  ];
+}
